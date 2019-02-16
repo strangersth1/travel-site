@@ -1,8 +1,33 @@
 {
   "name": "travel-site",
   "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
   "dependencies": {
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.1"
-  }
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-watch": "^5.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.1.1",
+    "postcss-simple-vars": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strangersth1/travel-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strangersth1/travel-site/issues"
+  },
+  "homepage": "https://github.com/strangersth1/travel-site#readme"
 }
